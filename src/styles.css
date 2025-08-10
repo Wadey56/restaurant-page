@@ -38,7 +38,6 @@ h1, h2, h3, h4, h5, h6 {
 #main-grid {
   display: grid;
   grid-template-columns: 1fr 6fr 1fr;
-  grid-template-rows: auto auto auto;
   gap: 1rem;
 }
 
@@ -50,4 +49,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 70vh;
   object-fit: cover;
   opacity: 0.2;
+}
+
+#content {
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
