@@ -1,0 +1,53 @@
+/* CSS Reset by Josh W Comeau https://www.joshwcomeau.com/css/custom-css-reset/ */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/* custom css */
+
+#main-grid {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 1rem;
+}
+
+#party-bg {
+  grid-column: 1/4;
+  grid-row: 1/4;
+  z-index: -1;
+  width: 100vw;
+  height: 70vh;
+  object-fit: cover;
+  opacity: 0.2;
+}
