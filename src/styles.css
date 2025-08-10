@@ -51,6 +51,27 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.2;
 }
 
+header {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+}
+
+header nav ul {
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+header nav ul button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 #content {
   grid-column: 2/3;
   grid-row: 2/3;
