@@ -13,7 +13,7 @@
 
 * {
   margin: 0;
-  font-family: "Cinzel", serif;
+  font-family: "Cinzel", serif; /* custom */
 }
 
 body {
@@ -58,6 +58,13 @@ h1, h2, h3, h4, h5, h6 {
   height: 70vh;
   object-fit: cover;
   opacity: 0.2;
+}
+
+#food-spread {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  width: 60vw;
+  object-fit: cover;
 }
 
 header {
