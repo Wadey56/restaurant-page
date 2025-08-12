@@ -102,3 +102,7 @@ header nav ul button {
   grid-column: 2/3;
   grid-row: 2/3;
 }
+
+#hero-tag {
+  margin-bottom: 4rem;
+}
