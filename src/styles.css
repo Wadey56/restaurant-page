@@ -70,10 +70,14 @@ h1, h2, h3, h4, h5, h6 {
 header {
   grid-column: 1/4;
   grid-row: 1/2;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin: 4rem;
+}
+
+header nav {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 4rem;
 }
 
 header nav ul {
@@ -86,6 +90,12 @@ header nav ul button {
   border: none;
   background-color: transparent;
   cursor: pointer;
+}
+
+#logo {
+  grid-column: 1/2;
+  width: 4rem;
+  justify-self: center;
 }
 
 #content {
