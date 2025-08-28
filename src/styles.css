@@ -136,3 +136,7 @@ header nav ul button {
 .serving-stats, .serving-description {
   font-size: clamp(10px, 1.2vw, 18px);
 }
+
+.serving-wrapper {
+  margin-bottom: clamp(15px, 2vw, 30px);
+}
