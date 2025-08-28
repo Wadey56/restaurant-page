@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   width: clamp(600px, 60vw, 1000px);
   justify-self: center;
   object-fit: cover;
+  margin: clamp(20px, 3vw, 48px);
 }
 
 header {
@@ -108,7 +109,7 @@ header nav ul button {
 }
 
 #hero-tag {
-  margin-bottom: clamp(30px, 10vh, 100px);
+  margin-bottom: clamp(30px, 10vh, 60px);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -122,4 +123,16 @@ header nav ul button {
 .description {
   font-size: clamp(10px, 1.5vw, 20px);
   font-style: italic;
+}
+
+.serving-section {
+  padding: clamp(10px, 5vh, 24px) clamp(40px, 10vw, 180px);
+}
+
+.serving-header {
+  font-size: clamp(10px, 1.5vw, 30px);
+}
+
+.serving-stats, .serving-description {
+  font-size: clamp(8px, 1.2vw, 18px);
 }
