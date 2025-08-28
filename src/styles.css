@@ -130,9 +130,9 @@ header nav ul button {
 }
 
 .serving-header {
-  font-size: clamp(10px, 1.5vw, 30px);
+  font-size: clamp(15px, 1.5vw, 30px);
 }
 
 .serving-stats, .serving-description {
-  font-size: clamp(8px, 1.2vw, 18px);
+  font-size: clamp(10px, 1.2vw, 18px);
 }
