@@ -17,6 +17,9 @@ heroTag.appendChild(resturantName);
 heroTag.appendChild(resturantTag);
 heroTag.appendChild(resturantTag2);
 
-// review branching 
-// create branch for this module
-// build template in js form
+let content = document.getElementById("content");
+function loadContent() {
+    content.appendChild(heroTag);
+}
+
+export { loadContent };
