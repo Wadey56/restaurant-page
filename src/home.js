@@ -24,10 +24,29 @@ foodSpread.id = "food-spread";
 foodSpread.src = foodSpreadImage;
 foodSpread.alt = "Food Spread";
 
+let servingSection = document.createElement("div");
+servingSection.classList.add("serving-section");
+
+for (let i = 0; i < 3; i++) {
+    let servingWrapper = document.createElement("div");
+    servingWrapper.classList.add("serving-wrapper");
+    let servingHeader = document.createElement("h2");
+    servingHeader.classList.add("serving-header");
+    let servingStats = document.createElement("em");
+    servingStats.classList.add("serving-stats");
+    let servingDescription = document.createElement("p");
+    servingDescription.classList.add("serving-description");
+    servingWrapper.appendChild(servingHeader);
+    servingWrapper.appendChild(servingStats);
+    servingWrapper.appendChild(servingDescription);
+    servingSection.appendChild(servingWrapper);
+}
+
 let content = document.getElementById("content");
 function loadContent() {
     content.appendChild(heroTag);
     content.appendChild(foodSpread);
+    content.appendChild(servingSection);
 }
 
 export { loadContent };
