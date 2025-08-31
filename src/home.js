@@ -54,10 +54,10 @@ for (let i = 0; i < 3; i++) {
 }
 
 let content = document.getElementById("content");
-function loadContent() {
+function loadHomeContent() {
     content.appendChild(heroTag);
     content.appendChild(foodSpread);
     content.appendChild(servingSection);
 }
 
-export { loadContent };
+export { loadHomeContent };

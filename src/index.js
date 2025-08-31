@@ -1,4 +1,4 @@
 import "./styles.css";
-import { loadContent } from "./home";
+import { loadHomeContent } from "./home";
 
-loadContent();
+loadHomeContent();
