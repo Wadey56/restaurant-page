@@ -1,3 +1,5 @@
+import foodSpreadImage from "./images/food-spread.png";
+
 let heroTag = document.createElement("div");
 heroTag.id = "hero-tag";
 
@@ -17,9 +19,15 @@ heroTag.appendChild(resturantName);
 heroTag.appendChild(resturantTag);
 heroTag.appendChild(resturantTag2);
 
+let foodSpread = document.createElement("img");
+foodSpread.id = "food-spread";
+foodSpread.src = foodSpreadImage;
+foodSpread.alt = "Food Spread";
+
 let content = document.getElementById("content");
 function loadContent() {
     content.appendChild(heroTag);
+    content.appendChild(foodSpread);
 }
 
 export { loadContent };
