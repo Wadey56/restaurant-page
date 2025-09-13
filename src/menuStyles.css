@@ -1,0 +1,42 @@
+#menu-header {
+  font-size: clamp(20px, 2.5vw, 40px);
+}
+
+#menu-section {
+  padding: clamp(10px, 5vh, 24px) clamp(140px, 15vw, 240px);
+}
+
+.menu-subheader {
+  padding-bottom: clamp(5px, 5vh, 10px);
+  border-bottom: 2px dotted black;
+}
+
+.menu-subheader {
+  font-size: clamp(15px, 1.5vw, 30px);
+  margin-bottom: clamp(15px, 1.5vw, 30px);
+  color: #701515;
+}
+
+.menu-item-price-wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: clamp(12px, 1.3vw, 20px);
+  color: #701515;
+}
+
+.item-description {
+  font-size: clamp(10px, 1.2vw, 18px);
+}
+
+.item-description, .item-comment, .item-ingredients {
+  padding-right: clamp(20px, 8vw, 140px);
+}
+
+.menu-wrapper, .menu-item-wrapper{
+  margin-bottom: clamp(15px, 2vw, 30px);
+}
+
+.item-comment, .item-ingredients {
+  font-size: clamp(10px, 1vw, 15px);
+  color: rgb(64, 64, 64);
+}

@@ -42,7 +42,7 @@
   font-style: italic;
 }
 
-#serving-section, #menu-section {
+#serving-section {
   padding: clamp(10px, 5vh, 24px) clamp(40px, 10vw, 180px);
 }
 
@@ -54,6 +54,6 @@
   font-size: clamp(10px, 1.2vw, 18px);
 }
 
-.serving-wrapper {
+.serving-wrapper{
   margin-bottom: clamp(15px, 2vw, 30px);
 }

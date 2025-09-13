@@ -31,11 +31,11 @@ let itemComments = [
 ]
 let itemIngredients = [
     "Barley, Water, Salt, Mimic meat, Waterweed, Fish eggs",
-    "Mandrake root, basilisk bacon, basilisk egg, salt and pepper (totaste)",
-    "Antidotal herb, medicinal herb, Living Armor, special sauce, salt and pepper",
-    "Cabbage, carrots, potatoes, onions, thick-sliced basilisk bacon, salt and pepper (to taste), water, turnips, carrot greens (to taste), olive oil (to taste)",
-    "Basilisk (1, tail and innards removed), mana herb (to taste), salt and pepper (to taste), antidotal herb, strong medicinal herb, ultra medicinal herb, anti-paralysis herb, anti-petrify herb",
-    "Huge scorpion, walking mushroom, seaweed, invertatoes, dried slime, salt and pepper (to taste), water, turnips, carrot greens (to taste), olive oil (to taste)"
+    "Mandrake root, basilisk bacon, basilisk egg",
+    "Antidotal herb, medicinal herb, Living Armor, special sauce",
+    "Cabbage, carrots, potatoes, onions, basilisk bacon, water, turnips, carrot greens",
+    "Basilisk, mana herb, antidotal herb, strong medicinal herb, ultra medicinal herb, anti-paralysis herb, anti-petrify herb",
+    "Huge scorpion, walking mushroom, seaweed, invertatoes, dried slime, water, turnips, carrot greens"
 ]
 let itemPrices = [
     "£6.95",
