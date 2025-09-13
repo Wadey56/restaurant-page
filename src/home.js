@@ -25,7 +25,7 @@ foodSpread.src = foodSpreadImage;
 foodSpread.alt = "Food Spread";
 
 let servingSection = document.createElement("div");
-servingSection.classList.add("serving-section");
+servingSection.id = "serving-section";
 
 let servingSectionHeaders = ["Boss Battle Breakfast", "Level-up Lunch", "Daring Dinner Duels"];
 let servingSectionStats = ["+12 Saving Throws", "+5 Stanima", "+10 Dexterity"];
