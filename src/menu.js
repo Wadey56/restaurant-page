@@ -57,9 +57,19 @@ for (let i = 0; i < 3; i++) {
 
     for (let j = 0 + (i * 2); j < 2 + (i * 2); j++) {
 
+        let menuItemWrapper = document.createElement("div");
+        menuItemWrapper.classList.add("menu-item-wrapper");
+
+        let menuItemPriceWrapper = document.createElement("div");
+        menuItemPriceWrapper.classList.add("menu-item-price-wrapper");
+
         let menuItem = document.createElement("h4");
         menuItem.classList.add("menu-item");
         menuItem.textContent = menuItems[j];
+
+        let itemPrice = document.createElement("p");
+        itemPrice.classList.add("item-price");
+        itemPrice.textContent = itemPrices[j];
 
         let itemDescription = document.createElement("p");
         itemDescription.classList.add("item-description");
@@ -73,15 +83,15 @@ for (let i = 0; i < 3; i++) {
         itemIngredientsList.classList.add("item-ingredients");
         itemIngredientsList.textContent = itemIngredients[j];
 
-        let itemPrice = document.createElement("p");
-        itemPrice.classList.add("item-price");
-        itemPrice.textContent = itemPrices[j];
+        menuItemPriceWrapper.appendChild(menuItem);
+        menuItemPriceWrapper.appendChild(itemPrice);
+        
+        menuItemWrapper.appendChild(menuItemPriceWrapper);
+        menuItemWrapper.appendChild(itemDescription);
+        menuItemWrapper.appendChild(itemComment);
+        menuItemWrapper.appendChild(itemIngredientsList);
 
-        menuWrapper.appendChild(menuItem);
-        menuWrapper.appendChild(itemDescription);
-        menuWrapper.appendChild(itemComment);
-        menuWrapper.appendChild(itemIngredientsList);
-        menuWrapper.appendChild(itemPrice);
+        menuWrapper.appendChild(menuItemWrapper);
     }
     
     menuSection.appendChild(menuWrapper);
