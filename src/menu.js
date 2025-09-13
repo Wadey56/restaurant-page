@@ -55,7 +55,7 @@ for (let i = 0; i < 3; i++) {
     menuSubheader.textContent = menuSubheaders[i];
     menuWrapper.appendChild(menuSubheader);
 
-    for (let j = 0; j < 3; j++) {
+    for (let j = 0 + (i * 2); j < 2 + (i * 2); j++) {
 
         let menuItem = document.createElement("h4");
         menuItem.classList.add("menu-item");
