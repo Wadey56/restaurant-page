@@ -5,7 +5,7 @@ menuHeader.textContent = "Menu";
 let menuSection = document.createElement("div");
 menuSection.id = "menu-section";
 
-let menuSubheaders = ["Brekafast", "Lunch", "Dinner"];
+let menuSubheaders = ["Breakfast", "Lunch", "Dinner"];
 let menuItems = [
     "Porridge from Grain just Lying Around",
     "Mandrake and Basilisk Omelet",
@@ -14,12 +14,12 @@ let menuItems = [
     "Roast Basilisk",
     "Scorpion and Walking Mushroom Hotpot",]
 let itemDescriptions = [
-    "A lightly browned texture of barley in a simmering broth and crunchy flavor, topped off with an enticing garnish of waterweed sprinkled with fish eggs and mimic meat.",
-    "Thick and fluffy basilisk egg wrapping a versatile mandrake root and tender bacon chunks.",
-    "A living armor meal, stir-fry-and-soup combo of mushrooms-like flavours, crunchy medicinal leaves, and flavour-full broth.",
+    "Lightly browned and crunchy barley in a simmering broth, topped with waterweed, fish eggs and mimic meat.",
+    "Thick and fluffy basilisk egg, wrapping a versatile mandrake root and tender bacon chunks.",
+    "Stir-fry-and-soup combo with mushroom-like flavours, crunchy medicinal leaves, and flavour-full broth.",
     "A quick vegetable-filled soup in a bacon-flavored broth, a substantial but light meal that wont weigh you down.",
-    "Rotisserie-style Baskilisk, providing a golden crispy skin, juicy meat, and seasoned with a healthy dose of healing herbs.", 
-    "The individual parts are questionable — Tantalising slime noodles, juicy scorpion meat, aromatic sentient mushrooms — the most delicious soup you've ever seen."
+    "Rotisserie-style Baskilisk, a golden crispy skin, juicy meat, and seasoned with a healthy dose of healing herbs.", 
+    "Tantalising slime noodles, juicy scorpion meat, aromatic sentient mushrooms."
 ]
 let itemComments = [
     "- a flavorful experience to behold.",
