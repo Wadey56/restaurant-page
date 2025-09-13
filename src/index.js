@@ -1,4 +1,4 @@
-import "./resetStyles.css";
+import "./globalStyles.css";
 import "./homeStyles.css";
 import { loadHomeContent } from "./home";
 import { loadMenuContent } from "./menu";

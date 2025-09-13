@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Pacifico&display=swap');
+
+.cinzel-regular {
+  font-family: "Cinzel", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* CSS Reset by Josh W Comeau https://www.joshwcomeau.com/css/custom-css-reset/ */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font-family: "Cinzel", serif; /* custom */
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+#main-grid {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+}
+
+header {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin: clamp(20px, 3vw, 48px);
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  padding: 0;
+  display: flex;
+  gap: clamp(10px, 2vw, 20px);
+}
+
+header nav ul button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: clamp(12px, 1.2vw, 30px);
+}
+
+#logo {
+  grid-column: 1/2;
+  width: clamp(45px, 6.5vw, 80px);
+  justify-self: center;
+}
