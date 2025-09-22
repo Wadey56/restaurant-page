@@ -1,5 +1,5 @@
-#menu-header {
-  font-size: clamp(20px, 2.5vw, 40px);
+#menu-header, #byoi-header {
+  font-size: clamp(20px, 2.5vw, 30px);
   margin-bottom: clamp(30px, 10vh, 60px);
 }
 
@@ -10,9 +10,6 @@
 .menu-subheader {
   padding-bottom: clamp(5px, 5vh, 10px);
   border-bottom: 2px dotted black;
-}
-
-.menu-subheader {
   font-size: clamp(15px, 1.5vw, 30px);
   margin-bottom: clamp(15px, 1.5vw, 30px);
   color: #701515;
@@ -23,6 +20,10 @@
   justify-content: space-between;
   font-size: clamp(12px, 1.3vw, 20px);
   color: #701515;
+}
+
+.byoi-description, .menu-disclaimer {
+  margin-bottom: clamp(15px, 2vw, 30px);
 }
 
 .item-description, .byoi-description, .menu-disclaimer {

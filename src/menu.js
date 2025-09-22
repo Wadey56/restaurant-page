@@ -1,20 +1,18 @@
-let menuHeader = document.createElement("h2");
-menuHeader.id = "menu-header";
-menuHeader.textContent = "Menu";
+let byoiHeader = document.createElement("h2");
+byoiHeader.id = "byoi-header";
+byoiHeader.textContent = "Bring Your Own Ingredients";
 
-let menuHeaderLines = document.createElement("div");
-menuHeaderLines.id = "menu-header-lines";
-// added in these header lines but move them about the menu title and give them their onw titles maybe split the service into its own section then the disclaimer just aboce the menu title 
 let byoiDescription = document.createElement("div");
 byoiDescription.classList.add("byoi-description");
 byoiDescription.textContent = "Delicious in Diner aims to cater to all adventurers, from those who are just starting out to those who are well on their way to becoming legends. As such, we understand that not everyone is able to spare the coin for a hearty meal. That's where our BYOI (Bring Your Own Ingredients) service comes in! With this option, you can bring your own ingredients and we will work out the best meal to make from it for a much smaller price. This service is available on request and prices typically range from 2-4 gold per serving.";
 
+let menuHeader = document.createElement("h2");
+menuHeader.id = "menu-header";
+menuHeader.textContent = "Menu";
+
 let menuDisclaimer = document.createElement("div");
 menuDisclaimer.classList.add("menu-disclaimer");
 menuDisclaimer.textContent = "Please be reminded that the menu is subject to change. Both prices and menu items are dependant on availability of ingredients selected by our adventuring suppliers at each respective level. If you have any dietary requirements, please let us know and we will do our best to accommodate.";
-
-menuHeaderLines.appendChild(byoiDescription);
-menuHeaderLines.appendChild(menuDisclaimer);
 
 let menuSection = document.createElement("div");
 menuSection.id = "menu-section";
@@ -113,8 +111,10 @@ for (let i = 0; i < 3; i++) {
 
 let content = document.getElementById("content");
 function loadMenuContent() {
+    content.appendChild(byoiHeader);
+    content.appendChild(byoiDescription);
     content.appendChild(menuHeader);
-    content.appendChild(menuHeaderLines);
+    content.appendChild(menuDisclaimer);
     content.appendChild(menuSection);
 }
 
