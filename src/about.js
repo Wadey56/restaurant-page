@@ -25,6 +25,22 @@ aboutDescription.textContent = "Delicious in Diner was founded by our very own C
 
 aboutContent.appendChild(aboutDescription);
 
+let aboutSubHeaders = ["Location", "Hours", "Contact"];
+let aboutItems = [["123 Stomach Rumbling", "<br/>Mouth Drooling", "<br/>Nose Twitching", "<br/>E4T N0W"], "We're now open 24/7, all day, every day!", "Please send inquires via letter to Chef Senshi."];
+
+for (let i = 0; i < 3; i++) {
+    let aboutSubHeader = document.createElement("h3");
+    aboutSubHeader.classList = "about-subheader";
+    aboutSubHeader.textContent = aboutSubHeaders[i];
+
+    let aboutItem = document.createElement("p");
+    aboutItem.classList = "about-item";
+    aboutItem.innerHTML = aboutItems[i];
+
+    aboutContent.appendChild(aboutSubHeader);
+    aboutContent.appendChild(aboutItem);
+}
+
 let content = document.getElementById("content");
 
 function loadAboutContent() {
