@@ -4,9 +4,11 @@ import "./menuStyles.css";
 import "./aboutStyles.css";
 import { loadHomeContent } from "./home";
 import { loadMenuContent } from "./menu";
+import { loadAboutContent } from "./about";
 
 // loadHomeContent();
 // loadMenuContent();
+loadAboutContent();
 
 // let homeButton = document.getElementById("home-button");
 // homeButton.addEventListener("click", () => {
