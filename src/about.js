@@ -12,7 +12,12 @@ senshiImage.id = "senshi-image";
 senshiImage.src = senshi;
 senshiImage.alt = "Chef Senshi";
 
-aboutHeader.appendChild(senshiImage);
+aboutWrapper.appendChild(senshiImage);
+
+let aboutContent = document.createElement("div");
+aboutContent.id = "about-content";
+
+
 
 let content = document.getElementById("content");
 
